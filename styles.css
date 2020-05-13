@@ -1,3 +1,40 @@
 html {
   background-color: white;
+  font-family: var ("https://fonts.google.com/specimen/Poppins");
+}
+
+.primerostitulos {
+  border: solid 2px violet;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10%;
+}
+
+.cuatrocuadros {
+  border: solid 2px green;
+  display: grid;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cuadro1 {
+  border: solid 2px cyan;
+  margin-top: 10%;
+  align-self: center;
+}
+
+.cuadro2 {
+  border: solid 2px red;
+}
+
+.cuadro3 {
+  border: solid 2px blue;
+}
+
+.cuadro4 {
+  border: solid 2px orange;
+  margin-bottom: 10%;
 }
