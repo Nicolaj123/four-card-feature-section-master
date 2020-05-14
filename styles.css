@@ -27,6 +27,10 @@ img {
   position: sticky;
 }
 
+.cuatrocuadros {
+  position: relative;
+}
+
 .cuadro1 {
   border-radius: 8%;
   display: inline-block;
@@ -116,10 +120,20 @@ img {
 }
 
 .attribution {
-  border: solid 2px red;
+  border: solid 2px green;
 }
 
-@media only screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
+  .cuatrocuadros {
+    lefst: 150px;
+    border: solid 2px red;
+  }
+
+  body {
+    max-width: 100%;
+    max-zoom: 1440px;
+  }
+
   .cuadro1 {
     position: relative;
     top: 112.5px;
@@ -137,6 +151,12 @@ img {
   .cuadro4 {
     position: relative;
     bottom: 140.8px;
-    left: 325.8px;
+    right: 270px;
+    top: 82px;
+  }
+
+  .attribution {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
