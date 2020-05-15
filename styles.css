@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  position: relative;
+}
+
 body {
   background-color: #fafafa;
   text-align: center;
@@ -28,8 +33,6 @@ img {
 }
 
 .cuatrocuadros {
-  position: relative;
-  padding: 10px;
 }
 
 .cuadro1title {
@@ -137,11 +140,13 @@ img {
 @media (min-width: 1440px) {
   .cuatrocuadros {
     border: solid 2px red;
+    position: relative;
+    padding: 10px;
+    padding-left: 16%;
   }
 
   body {
     max-width: 100%;
-    max-zoom: 1440px;
   }
 
   .cuadro1 {
@@ -166,7 +171,6 @@ img {
   }
 
   .attribution {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
   }
 }
