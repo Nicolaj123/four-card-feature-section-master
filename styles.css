@@ -1,5 +1,4 @@
 body {
-  margin: 40px;
   background-color: #fafafa;
   text-align: center;
   font-family: "Poppins", serif;
@@ -20,19 +19,25 @@ body {
 .title3 {
   font-weight: 50;
   font-size: 12px;
+  text-align: center;
 }
 
 img {
   left: 200px;
-  position: sticky;
+  position: absolute;
 }
 
 .cuatrocuadros {
   position: relative;
+  padding: 10px;
+}
+
+.cuadro1title {
+  font-style: bold;
 }
 
 .cuadro1 {
-  border-radius: 8%;
+  border-radius: 4%;
   display: inline-block;
   position: relative;
   margin: auto 0;
@@ -41,9 +46,9 @@ img {
   background-color: #ffffff;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-top: solid 4px;
-  border-color: cyan;
+  border-color: hsl(180, 62%, 55%);
 }
 
 .cuadro1title,
@@ -54,7 +59,7 @@ img {
 }
 
 .cuadro2 {
-  border-radius: 8%;
+  border-radius: 4%;
   display: inline-block;
   position: relative;
   margin: auto 0;
@@ -65,7 +70,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   border-top: solid 4px;
-  border-color: red;
+  border-color: hsl(0, 78%, 62%);
 }
 
 .cuadro2title,
@@ -76,7 +81,7 @@ img {
 }
 
 .cuadro3 {
-  border-radius: 8%;
+  border-radius: 4%;
   display: inline-block;
   position: relative;
   margin: auto 0;
@@ -87,7 +92,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   border-top: solid 4px;
-  border-color: lightblue;
+  border-color: hsl(34, 97%, 64%);
 }
 
 .cuadro3title,
@@ -98,7 +103,7 @@ img {
 }
 
 .cuadro4 {
-  border-radius: 8%;
+  border-radius: 4%;
   display: inline-block;
   position: relative;
   margin: auto 0;
@@ -109,7 +114,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   border-top: solid 4px;
-  border-color: orange;
+  border-color: hsl(212, 86%, 64%);
 }
 
 .cuadro4title,
@@ -121,11 +126,16 @@ img {
 
 .attribution {
   border: solid 2px green;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 1440px) {
   .cuatrocuadros {
-    lefst: 150px;
     border: solid 2px red;
   }
 
