@@ -1,16 +1,15 @@
-html {
-  height: 100%;
-  position: relative;
+* {
+  box-sizing: border-box;
 }
 
 body {
   background-color: #fafafa;
-  text-align: center;
   font-family: "Poppins", serif;
   font-size: 15px;
+  color: hsl(234, 12%, 34%);
 }
 
-.primerostitulos {
+.header {
   margin-top: 2.5%;
   text-align: center;
 }
@@ -28,107 +27,120 @@ body {
 }
 
 img {
-  left: 200px;
   position: absolute;
+  right: 25px;
+  bottom: 25px;
 }
 
-.cuatrocuadros {
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.cuadro1title {
-  font-style: bold;
+.fourcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.cuadro1 {
-  border-radius: 4%;
-  display: inline-block;
+.card1title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card2title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card3title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card4title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card1 {
   position: relative;
-  margin: auto 0;
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  text-align: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 40px;
-  border-top: solid 4px;
-  border-color: hsl(180, 62%, 55%);
+  padding: 10px 30px;
+  margin: 15px;
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 
-.cuadro1title,
-.cuadro1description {
-  padding-left: 10%;
-  color: #a3a5ae;
-  font-size: 13px;
+.card1description {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
 }
 
-.cuadro2 {
-  border-radius: 4%;
-  display: inline-block;
+.card2 {
   position: relative;
-  margin: auto 0;
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  text-align: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
-  border-top: solid 4px;
-  border-color: hsl(0, 78%, 62%);
+  padding: 10px 30px;
+  margin: 15px;
+  border-top: 4px solid hsl(0, 78%, 62%);
 }
 
-.cuadro2title,
-.cuadro2description {
-  padding-left: 10%;
-  color: #a3a5ae;
-  font-size: 13px;
+.card2description {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
 }
 
-.cuadro3 {
-  border-radius: 4%;
-  display: inline-block;
+.card3 {
   position: relative;
-  margin: auto 0;
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  text-align: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
-  border-top: solid 4px;
-  border-color: hsl(34, 97%, 64%);
+  padding: 10px 30px;
+  margin: 15px;
+  border-top: 4px solid hsl(34, 97%, 64%);
 }
 
-.cuadro3title,
-.cuadro3description {
-  padding-left: 10%;
-  color: #a3a5ae;
-  font-size: 13px;
+.card3description {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
 }
 
-.cuadro4 {
-  border-radius: 4%;
-  display: inline-block;
+.card4 {
   position: relative;
-  margin: auto 0;
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  text-align: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
-  border-top: solid 4px;
-  border-color: hsl(212, 86%, 64%);
+  padding: 10px 30px;
+  margin: 15px;
+  border-top: 4px solid hsl(212, 86%, 64%);
 }
 
-.cuadro4title,
-.cuadro4description {
-  padding-left: 10%;
-  color: #a3a5ae;
-  font-size: 13px;
+.card4description {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
 }
 
 .attribution {
-  border: solid 2px green;
   font-size: 11px;
   text-align: center;
 }
@@ -137,40 +149,21 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1440px) {
-  .cuatrocuadros {
-    border: solid 2px red;
-    position: relative;
-    padding: 10px;
-    padding-left: 16%;
+@media only screen and (max-width: 375px) {
+  .header {
+    width: 375px;
   }
 
-  body {
-    max-width: 100%;
+  .header h1 {
+    font-size: 26px;
   }
 
-  .cuadro1 {
-    position: relative;
-    top: 112.5px;
-    right: 30px;
-  }
-  .cuadro2 {
-    position: relative;
-    margin-bottom: 0;
-  }
-  .cuadro3 {
-    position: relative;
-    right: 295.8px;
-    top: 250px;
-  }
-  .cuadro4 {
-    position: relative;
-    bottom: 140.8px;
-    right: 270px;
-    top: 82px;
+  .header h2 {
+    font-size: 26px;
   }
 
-  .attribution {
-    display: block;
+  .fourcards {
+    flex-direction: column;
+    align-items: center;
   }
 }
